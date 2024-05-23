@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificação de Animais</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="cs-page-conteiner">
+        <div class="cs-page">
+            <div id="form">
+                <form id="animal-form">
+                    <div class="form-item">
+                        <label for="animal-image">Tire uma foto do animal que quer identificar (Formato PNG, JPG ou JPEG)</label>
+                    </div>
+                    <div class="form-item">
+                        <input type="file" id="animal-image" accept="image/*">
+                    </div>
+                    <div class="form-item">
+                        <button type="submit" id="submit-animal-image">Identificar o Animal</button>
+                    </div>
+                </form>
+            </div>
+            <div class="animal-info-conteiner">
+                <div class="animal-info-data-conteiner">
+                    <p id="message-name"></p>
+               </div>
+                <div class="animal-info-data-conteiner">
+                    <img id="cs-animal-image">
+                </div>
+                <div class="animal-info-data-conteiner">
+                     <p id="message"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    background-color: aliceblue;
+    color: black;
+}
+
+.cs-page-conteiner{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cs-page{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+div#form-item{
+    color: rgb(17, 127, 223);
+}
+
+.animal-info-conteiner{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    width: 250px;
+}
+
+.animal-info-data-conteiner{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
